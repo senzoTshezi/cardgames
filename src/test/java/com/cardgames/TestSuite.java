@@ -1,0 +1,14 @@
+package com.cardgames;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+
+@RunWith(Suite.class)
+@Suite.SuiteClasses({TestDeck.class,
+                     TestFiveCardHandComparison.class,
+                     TestHoldemHandComparison.class,
+                     TestFiveCardHandIdentification.class,
+                     TestHoldemHandIdentification.class
+                     })
+public class TestSuite {
+}
